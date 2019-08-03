@@ -12,8 +12,8 @@ time_step = 0.003 #s
 average_number = 5
 
 exp_type = 'LSV'
-start_voltage = -1.5 #V
-end_voltage = 1.5 #V
+start_voltage = 0.0 #V
+end_voltage = 0.75 #V
 normalized_start = ((start_voltage+2.5)/5) #for PWM
 normalized_end = ((end_voltage+2.5)/5)
 sweep_rate = 100 #mV/s
