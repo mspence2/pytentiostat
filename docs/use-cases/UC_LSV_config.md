@@ -26,8 +26,7 @@ As a test case - Mike will perform this use case as someone with knowledge of el
 1. Mike runs this file in the python console
 
 **Pytentiostat Operations**
-1. Pytentiostat creates an text file with output_file_name specified in the config file
-1. Pytentiostat records the user defined parameters in the file
+1. Pytentiostat runs startup routines to find the JUAMI potentiostat, connect with arduino, and load the configuration file information
 1. Pytentiostat tells the potentiostat to start measuring current
 1. Pytentiostat starts storing the applied potential, measured current, and time in the file while simultaneously plotting measured current vs. potential on the screen
 1. Pytentiostat initiates the potential sweep from V_initial to V_final
