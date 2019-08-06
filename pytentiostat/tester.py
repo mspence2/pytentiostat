@@ -11,12 +11,14 @@ shunt_resistor = 0.202
 time_step = 0.003 #s
 average_number = 5
 
+#Begin User Inputs
 exp_type = 'LSV'
 start_voltage = -1.5 #V
 end_voltage = 1.5 #V
 normalized_start = ((start_voltage+2.5)/5) #for PWM
 normalized_end = ((end_voltage+2.5)/5)
 sweep_rate = 100 #mV/s
+#End User Inputs
 
 time_per_measurement = time_step*2*average_number
 
