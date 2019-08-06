@@ -1,5 +1,8 @@
 Use Case: Cyclic Voltammetry on the JUAMI Potentiostat
-Intended User: Undergraduate Researcher at a University in Africa with Introductory Knowledge of Electrochemistry and Cyclic Voltammetry. The instructions in this UC assume that the student already has an electrochemical cell set up and ready for testing (working electrode, counter electrode, and possibly reference electrode are all in a proper beaker).
+Intended User: Undergraduate student at a University in Africa with Introductory Knowledge of electrochemistry and cyclic voltammetry. 
+The instructions in this UC assume that the student already has an electrochemical cell set up and ready for testing 
+(working electrode, counter electrode, and possibly reference electrode are all in a proper beaker).
+
 As a test case - Mike will perform these instructions as someone with knowledge of electrochemistry but little knowledge of Python.
 
 Experimental Setup:
@@ -10,7 +13,8 @@ Experimental Setup:
 1. Mike attaches the white clip to the reference electrode if he is using one, or he attaches it to the counter electrode for a two electrode test
 
 Program Setup:
-1. Mike opens the Pytentiostat script (the script is incomplete and requires filling in of user-defined information)
+1. Mike opens a text editor
+1. Mike opens the configuration file located at pytentiostat/pytentiostat/docs/use-cases/tester.py
 1. Mike types a file name for the sample being tested next to 'file name' on line # (file will contain the voltage, current, and time information)
 1. Mike inputs Initial Potential on line # (V vs. open circuit voltage (Eocv))
 1. Mike inputs first turnover potential (V vs. Ref) on line #
